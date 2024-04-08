@@ -1,0 +1,75 @@
+/* Fonte principal */
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+}
+
+/* Página */
+body {
+    background-color: white;
+    color: black;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5b51083c3e2d091347d2e6fe/1638462278514-4YWH839J25OURZLJUI5C/mike-benna-SBiVq9eWEtQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+   /* background-size: 500px, 100px; /* Adjust the background size as needed */
+}
+
+/* Heading 1 */
+h1 {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Heading 2 and Heading 3 */
+h2, h3 {
+    background-color: #336699;
+    color: white;
+}
+
+/* Links */
+a {
+    font-weight: bold;
+    color: #151B54;
+    text-decoration: none;
+}
+
+/* Listas */
+ul, ol {
+    background-color: #CCCCCC;
+}
+
+ol {
+    list-style-type: upper-roman; /* For numbered lists */
+}
+
+/* Parágrafos */
+p {
+    text-align: justify;
+    text-indent: 2em;
+    color:blanchedalmond
+}
+
+.container img {
+    width: 300px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.green-text {
+    color: green;
+}
+
+.table-left,
+.table-right {
+    display: inline-block;
+    vertical-align: top; /* Align tables to the top */
+    color:whitesmoke /* Change to your desired color */
+}
+
+/* Add margin between the tables */
+.table-right {
+    margin-left: 20px; /* Adjust as needed */
+    color:whitesmoke  /* Change to your desired color */
+}
